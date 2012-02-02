@@ -1,1 +1,23 @@
-just a test
+fcgid -- flup-like fastcgi server
+
+* features:
+  ** multi-process model, like PHPCGI
+  ** support python WSGI spec. will support other language in the future.
+
+
+* dependencies:
+  ** boost library   http://sourceforge.net/projects/boost/files/boost/1.48.0/
+  ** libfcgi++       http://www.fastcgi.com/dist/fcgi.tar.gz
+  ** libpython       http://www.python.org/
+
+* build
+  open Makefile, change 'PREFIX' and 'PYTHON_VERSION' as your environment.
+  make
+
+
+* usage
+  ./fcgid -h
+  ./fcgid -c conf/fcgid.conf -p 11111 
+
+
+
