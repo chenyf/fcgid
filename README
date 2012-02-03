@@ -1,5 +1,11 @@
 fcgid -- flup-like fastcgi server
 
+Are you looking for a fastcgi server which written in C/C++? this is the one for you!
+I 'steal' the idea from flup, a fastcgi server which written in python. 
+Now it only support multi-process model, I plan to add multi-thead model in the future.
+Now it only support python WSGI spec, I plan to add support for other languages in the future.
+Do you have interesting to work together with me to make it better? 
+
 * features:
   ** multi-process model, like PHPCGI
   ** support python WSGI spec. will support other language in the future.
